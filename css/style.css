@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.min-link{
+    bottom: 30px;
+    position: absolute;
+}
+
+.link {
+    bottom: 30px;
+    position: absolute;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    /* padding: 0px 0 20px;  */
+    height: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+    .link {
+        margin-top: 1%;
+        position: absolute;
+    }
+    .min-link{
+        margin-top: 0;
+        position: absolute;
+    }
+
+    .title h4{
+        font-size: 27px !important;
+        width: 100% !important;
+        margin-top: 7% !important;
+    }
+
+    .title3 h4{
+        font-size: 27px !important;
+        width: 100% !important;
+        margin-top: 7% !important;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .column1 {
+    width: 33% !important;
+    }
+
+    .column2 {
+    width: 33% !important;
+    }
+
+    .column3 {
+    width: 33% !important;
+    }
+
+    .box1 {
+        width: 33% !important;
+    }
+
+    .box2 {
+        width: 33% !important;
+    }
+
+    .box3{
+        width: 33% !important;
+    }
+
+    .title3 h4 {
+        font-size: 24px !important;
+        width: 100% !important;
+        margin-top: 20% !important;
+    }
+
+    .title h4 {
+        font-size: 24px !important;
+        width: 100% !important;
+        margin-top: 20% !important;
+    }
+
+    .min-box {
+        background: #FFF;
+        border-radius: 0;
+        padding: 10px 25px;
+        margin: 6px 6px;
+        text-align: left;
+        min-height: 320px !important;
+        position: relative;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        padding: 0px 0 92px;
+    }
+
+    .column1 {
+    width: 100% !important;
+    }
+
+    .column2 {
+    width: 100% !important;
+    }
+
+    .column3 {
+    width: 100% !important;
+    }
+
+    .box1 {
+        width: 100% !important;
+    }
+
+    .box2 {
+        width: 100% !important;
+    }
+
+    .box3{
+        width: 100% !important;
+    }
+
+    .box-part {
+        margin: 7px 10px !important;
+    }
+
+}
+
+    .box1 {
+    float: left;
+    width: 40%;
+    }
+
+    .box2 {
+    float: left;
+    width: 20%;
+    }
+
+    .box3{
+    float: left;
+    width: 40%;
+    }
+
+
+    .column1 {
+    float: left;
+    width: 40%;
+    }
+
+    .column2 {
+    float: left;
+    width: 40%;
+    }
+
+    .column3{
+    float: left;
+    width: 20%;
+    }
+
+    .box{
+    padding:60px 0px;
+    }
+
+    .box-part{
+    background:#FFF;
+    border-radius:0;
+    padding: 10px 25px;
+    margin: 6px 6px;
+    text-align: left;
+    min-height: 360px;
+    position: relative;
+    }
+
+    .min-box{
+    background:#FFF;
+    border-radius:0;
+    padding: 10px 25px;
+    margin: 6px 6px;
+    text-align: left;
+    min-height: 280px;
+    position: relative;
+    }
+
+    .text{
+    margin:20px 0px;
+    }
+
+    .arrow{
+        color:#4183D7;
+    }
+
+    .title h4{
+    font-size: 30px;
+    width: 100%;
+    margin-top: 7%;
+    }
+
+    .title3 h4{
+    color: #FFFFFF !important;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 7%;
+    }
+
+    .title3 i{
+    color: #FFFFFF !important;
+    }
+
+    .third-blog a{
+        color: #E6B880;
+        text-decoration: none;
+        border-bottom: 1px solid #E6B880;
+    }
+
+    .blog-three a{
+        color: #FFFFFF;
+        text-decoration: none;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+
+    .min-box a{
+        font-size: 12px; 
+    }
+
+    .box-part a{
+        font-size: 12px; 
+        /* border-bottom: 1px solid #ffffff; */
+    }
+    /* Blog Background color */
+
+    /* Row 1 */
+    .first-blog{
+    background: #F0F7E8;
+    }
+
+    .second-blog{
+    background: #F1F2F2;
+    }
+
+    .third-blog{
+    background: #FCF5ED;
+    }
+
+    /* Row 2 */
+    .blog-one{
+    background: #F9EDED;
+    }
+
+    .blog-two{
+    background: #EEF7FF;
+    }
+
+    .blog-three{
+    background: #99515B;
+    }
+
+    /* Row 3 */
+
+    .blog-1{
+    background: #F9EDED;
+    }
+
+    .blog-2{
+    background: #FCF5ED;
+    }
+
+    .blog-3{
+    background: #EEF7FF;
+    }
+
+    /* Blog # */
+
+    .blog1 p{
+    color: #96BF72;
+    font-size: 14px;
+    }
+
+    .blog1 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #96BF72 !important;
+    }
+
+    .first-blog a{
+        color: #96BF72;
+    }
+
+    .blog2 p{
+    color: #A7A9AC;
+    font-size: 14px;
+    }
+
+    .blog2 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #A7A9AC !important;
+    }
+    .second-blog a{
+        color: #A7A9AC;
+    }
+
+    .blog3 p{
+    color: #E6B880;
+    font-size: 14px;
+    }
+
+    .blog3 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #E6B880 !important;
+    }
+
+    .blog4 p{
+    color: #99515B;
+    font-size: 14px;
+    }
+
+    .blog4 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #99515B !important;
+    }
+
+    .blog-one a{
+        color: #99515B;
+    }
+
+    .blog5 p{
+    color: #96BF72;
+    font-size: 14px;
+    }
+
+    .blog5 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #96BF72 !important;
+    }
+
+    .blog-two a{
+        color: #96BF72;
+    }
+
+    .blog6 p{
+    color: #FFFFFF;
+    font-size: 14px;
+    }
+
+    .blog6 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #FFFFFF !important;
+    }
+
+    .blog7 p{
+    color: #99515B;
+    font-size: 14px;
+    }
+
+    .blog7 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #99515B !important;
+    }
+
+    .blog-1 a{
+        color: #99515B;
+    }
+
+    .blog8 p{
+    color: #E6B880;
+    font-size: 14px;
+    }
+
+    .blog8 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #E6B880 !important;
+    }
+
+    .blog-2 a{
+        color: #E6B880;
+    }
+
+    .blog9 p{
+    color:#96BF72;
+    font-size: 14px;
+    }
+
+    .blog9 hr{
+    margin-top: 0px; 
+    margin-bottom: 3px; 
+    border: 0;
+    border-top: 1px solid #96BF72 !important;
+    }
+
+    .blog-3 a{
+        color: #96BF72;
+    }
