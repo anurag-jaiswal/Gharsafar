@@ -14,6 +14,11 @@ body{
     position: absolute;
 }
 
+.arrow-right{
+    position: absolute;
+    padding: 4px 0 0 10px;
+}
+
 .column {
     float: left;
     width: 33.33%;
@@ -191,10 +196,6 @@ body{
     margin:20px 0px;
     }
 
-    .arrow{
-        color:#4183D7;
-    }
-
     .title h4{
     font-size: 30px;
     width: 100%;
@@ -206,10 +207,6 @@ body{
     font-size: 30px;
     width: 100%;
     margin-top: 7%;
-    }
-
-    .title3 i{
-    color: #FFFFFF !important;
     }
 
     .third-blog a{
